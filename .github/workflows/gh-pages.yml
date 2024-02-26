@@ -11,7 +11,7 @@ jobs:
   deploy:
     runs-on: macos-latest
     steps:
-      - name: Checkout blog repo
+      - name: Checkout aspose.ai repo
         uses: actions/checkout@main
         with:
           repository: Aspose/aspose.ai

@@ -1,2 +1,2 @@
 # aspose.ai.workflows
-v1.9
+v1.10

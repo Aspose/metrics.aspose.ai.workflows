@@ -11,10 +11,10 @@ jobs:
   deploy:
     runs-on: macos-latest
     steps:
-      - name: Checkout aspose.ai repo
+      - name: Checkout metrics.aspose.ai repo
         uses: actions/checkout@main
         with:
-          repository: Aspose/aspose.ai
+          repository: Aspose/metrics.aspose.ai
           token: ${{ secrets.REPO_TOKEN }}
           #submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
